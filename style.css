@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Aboreto', cursive;
+}
+
+.wrapper{
+    width: 100%;
+
+}
+
+.img-banner{
+    display: none;
+    width: 20%;
+    padding-bottom: 120px;
+}
+
+.img-info h2{
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+}
+
+.img-info p{
+    padding: 0px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: large;
+
+}
+
+.img-dragon{
+    width: 100%;
+    width: 70vh;
+    float: left;
+    border-radius: 20px;
+}
+
+ @media only screen and (min-width: 768px) {
+    .img-banner{
+    display: block;
+    width: 98vw;
+    height: 68vh;
+    padding-bottom: 120px;
+}
+ }
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+.img-info h2{
+    padding: 20px 0px 0px;
+}
+
+.img-info p{
+    padding: 20px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: large;
+}
+
+.img-dragon{
+    border-radius: 20px;
+    width: 70vh;
+}
+
+
+.img-info h2:hover, .img-info h2:active {
+    background-image: linear-gradient(
+  70deg,
+  hsl(0deg 100% 29%) 0%,
+  hsl(22deg 100% 38%) 29%,
+  hsl(33deg 100% 46%) 43%,
+  hsl(39deg 100% 50%) 57%,
+  hsl(44deg 100% 50%) 71%,
+  hsl(49deg 100% 50%) 100%);
+    font-size: 350%;
+    border-radius: 20vh;
+    text-align: center;
+
+} 
+
+ @media only screen and (min-width: 1000px) {
+
+     .wrapper {
+        width: 1500px;
+     }
+
+     .img-info{
+    width: 50%;
+    float: right; 
+}
+    
+    
+    .img-info h2{
+        padding: 20px 0px 0px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: #111;
+        line-height: 44px;
+        font-family: 'Aboreto', cursive;
+        text-align: center;
+    }
+    
+    .img-info p{
+        padding: 20px 0px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: large;
+
+    .img-dragon{
+    padding-top: 20px;
+    border-radius: 20px;
+}
+}
+
+.img-dragon{
+    padding-top: 0px;
+    width: 80vh;
+    float: left;
+    border-radius: 20px;
+}
+
+.img-dragon:hover, .img-dragon:active {
+    color: rgba(0, 0, 0, 0.384);
+
+}
+
+
+.img-info h2:hover, .img-info h2:active {
+    background-image: linear-gradient(
+  70deg,
+  hsl(0deg 100% 29%) 0%,
+  hsl(22deg 100% 38%) 29%,
+  hsl(33deg 100% 46%) 43%,
+  hsl(39deg 100% 50%) 57%,
+  hsl(44deg 100% 50%) 71%,
+  hsl(49deg 100% 50%) 100%);
+    font-size: 350%;
+    border-radius: 20vh;
+    text-align: center;
+}
+
+ }
